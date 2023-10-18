@@ -1,0 +1,29 @@
+{
+    "name": "Cócegas",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "pxt-pca9685": "github:jdarling/pxt-pca9685#v0.0.5",
+        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.4",
+        "UDriver_PCA9685": "github:tinkertanker/udriver_pca9585#v0.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
